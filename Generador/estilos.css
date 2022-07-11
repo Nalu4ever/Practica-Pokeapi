@@ -1,0 +1,83 @@
+body{
+     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+     font-size:22px;
+     margin: 0;
+     background-image: url("battle.png");
+     background-size: 100%;
+     
+}
+.title{
+text-align: center;
+padding: 16px;
+}
+.pokemon-list{
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+    max-width: 800px;
+    margin: auto;
+}
+.pokemon1{
+    margin-top: 50%;
+    margin-right: 100%;   
+}
+.pokemon2{
+    margin-left: 100%;
+    text-align: center;
+    margin-right: auto;
+ }
+.vs{
+    text-align: center;
+    margin: auto;
+    font-size: 32px;
+}
+img{
+    width: 250px;
+}
+.botongenerar{
+    display: flex;
+    margin: auto;
+    background-color: transparent;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    border-color: transparent;
+    font-family: Poke;
+    cursor: pointer;   
+}
+.botongenerar:hover{
+    color: white;
+}
+nav{
+    background-image: url('Fondo-Header.jpg');
+    font-family:Poke ;
+    
+}
+@font-face {
+    font-family: Poke;
+    src: url(Symtext.ttf);
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+p{
+    font-family: Poke;
+}
+a:hover{
+    color: orange;
+}
+.espacio{
+    margin-left: 3%;
+}
+.PContainer{
+    position: relative;
+    width: 180px;
+    margin: 5px 5px;
+    background-color:white;
+    border: black;
+    border-style:dashed;
+}
+.poke1{
+    text-align: center;
+}

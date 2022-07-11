@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="pokedex.css">
+        <script src="pokedex.js" type="text/javascript" defer></script>
+        <link rel="icon" href="pokebola.png">
+        <title>Pokedex</title>
+    </head>
+    <header>
+        <nav>
+            <a href="../Index.html">Home</a>
+            <a  class="espacio"href="../Generador/Generador.html">Generador Pokemon</a>
+            <a class="espacio" href="../Presentacion/Busqueda.html">Busqueda de Pokemon</a>
+        </nav>
+    </header>
+    <body>
+        <div class="pokedex-container">
+            <div class="pokedex__header">
+                <div class="pokedex__header-title">
+                    <h1>POKEDEX</h1>
+                </div>
+                <div class="pokedex__header-search">
+                    <form action="" id="searchPokemon">
+                        <input type="text" id="pokemon">
+                        <button>
+                            <img src="pokebola.png" alt="pokeball">
+                        </button>
+    
+                    </form>
+                </div>
+                
+                <div class="pokedex__header-aline">
+                    <div class="arrow-left" id="arrow-left"></div>
+                    <div class="order" id="textGen">Gen 1</div>
+                    <div class="arrow-right" id="arrow-right"></div>
+                </div>
+            </div>
+    
+            <div class="pokedex__pokemon-content" id="pokemonContent" onclick="exitModal()">
+            
+            </div>
+        </div>
+    
+    </body>
+</html>
